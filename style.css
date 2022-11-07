@@ -551,6 +551,8 @@ footer {
     top: 0;
     padding: 0;
     text-align: left;
+    width: 300px;
+    margin-bottom: 30px;
   }
 
   .productImg {
@@ -562,8 +564,12 @@ footer {
     margin: 0;
   }
 
-  .productDetails {
-    width: 300px;
+  .productTitle {
+    margin: 50px 0 30px 0;
+  }
+
+  .productDesc {
+    text-align: center;
   }
 
   .gallery {
