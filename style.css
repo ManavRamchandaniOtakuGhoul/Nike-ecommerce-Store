@@ -523,11 +523,18 @@ footer {
     right: 0;
     bottom: 0px;
   }
-  /* -----------features----------------------------------------------------------------------- */
+    /* -----------features----------------------------------------------------------------------- */
 
   .features {
     flex-direction: column;
   }
+
+  .featureDesc {
+    width: 275px;
+    margin-top: 10px;
+  }
+
+  /* -------------------------products--------------------------------------------------------------------- */
 
   .products {
     clip-path: none;
@@ -543,8 +550,7 @@ footer {
     flex-direction: column;
     top: 0;
     padding: 0;
-    align-items: center;
-    text-align: center;
+    text-align: left;
   }
 
   .productImg {
@@ -554,6 +560,10 @@ footer {
   .featureTitle {
     font-size: 50px;
     margin: 0;
+  }
+
+  .productDetails {
+    width: 300px;
   }
 
   .gallery {
